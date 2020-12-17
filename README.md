@@ -26,18 +26,19 @@ $ pip install -i https://test.pypi.org/simple/ getweather
 - importlib
 
 ## Usage
+from getweather import getwa=eather
 
 - 1. Get current weather data for one location.
-     >>>getweather.getonecity(weather_api_key,'London',status='current')
+     getweather.getonecity(weather_api_key,'London',status='current')
      
 - 2. Get forecast weather data for one location.
-     >>>getweather.getonecity(weather_api_key,'London',status='forecast')
+     getweather.getonecity(weather_api_key,'London',status='forecast')
      
 - 3. Get current weather data for any number of cities you want.
-     >>>getweather.getcities(weather_api_key,'London','Shanghai','New York')
+     getweather.getcities(weather_api_key,'London','Shanghai','New York')
      
 - 4. Get current weather data from cities laid within a definite circle that is specified by center point (city that you input) and expected number of cities (cnt) around this        point.
-     >>>getweather.getcitycircle(weather_api_key,'Shanghai', 20)
+     getweather.getcitycircle(weather_api_key,'Shanghai', 20)
 
 ## Documentation
 
