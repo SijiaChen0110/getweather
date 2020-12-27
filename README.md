@@ -35,6 +35,7 @@ $ pip install -i https://test.pypi.org/simple/ getweather
 - Install and import package
 
   `$ pip install -i https://test.pypi.org/simple/ getweather`
+  
   `from getweather import getweather`
 
 
