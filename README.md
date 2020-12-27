@@ -45,8 +45,7 @@ from getweather import getweather
 example:
 
 
-  getweather.getonecity(weather_api_key,'London',status='current')
-
+  `getweather.getonecity(weather_api_key,'London',status='current')`
 
 
 - Get forecast weather data for one location.
@@ -57,7 +56,7 @@ example:
      
   
 
-  getweather.getonecity(weather_api_key,'London',status='forecast')
+  `getweather.getonecity(weather_api_key,'London',status='forecast')`
  
     
 
@@ -69,7 +68,7 @@ example:
   
   
 
-  getweather.getcities(weather_api_key,'London','Shanghai','New York')
+  `getweather.getcities(weather_api_key,'London','Shanghai','New York')`
      
 
 
@@ -80,7 +79,7 @@ example:
   example:
 
 
-  getweather.getcitycircle(weather_api_key,'Shanghai', 20)
+  `getweather.getcitycircle(weather_api_key,'Shanghai', 20)`
 
 ## Documentation
 
