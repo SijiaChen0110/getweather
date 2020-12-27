@@ -17,34 +17,25 @@ $ pip install -i https://test.pypi.org/simple/ getweather
 ## Dependencies
 
 - pandas
-<<<<<<< HEAD
-
-- matplotlib
-
-- pytest
-
-- os
-
-- requests
-
-- json
-
-- time
-
-=======
 - matplotlib
 - pytest
 - os
 - requests
 - json
 - time
->>>>>>> 44dddcf9def50bc76f3c80102dc69c1259a33c96
+- matplotlib
+- pytest
+- os
+- requests
+- json
+- time
 - importlib
 
 ## Usage
+- Install and import package
 
-<<<<<<< HEAD
-from getweather import getweather
+  `$ pip install -i https://test.pypi.org/simple/ getweather`
+  `from getweather import getweather`
 
 
 
@@ -52,7 +43,7 @@ from getweather import getweather
 
 
   
-example:
+  example:
 
 
   `getweather.getonecity(weather_api_key,'London',status='current')`
@@ -89,33 +80,8 @@ example:
   example:
 
 
-=======
-  from getweather import getweather
-
-- Get current weather data for one location.
-  
-  example:
-  
-  `getweather.getonecity(weather_api_key,'London',status='current')`
-     
-- Get forecast weather data for one location.
-
-  example:
-     
-  `getweather.getonecity(weather_api_key,'London',status='forecast')`
-     
-- Get current weather data for any number of cities you want.
-  
-  example:
-  
-  `getweather.getcities(weather_api_key,'London','Shanghai','New York')`
-     
-- Get current weather data from cities laid within a definite circle that is specified by center point (city that you input) and expected number of cities (cnt) around this       point.
-
-  example:
-     
->>>>>>> 44dddcf9def50bc76f3c80102dc69c1259a33c96
   `getweather.getcitycircle(weather_api_key,'Shanghai', 20)`
+
 
 ## Documentation
 
